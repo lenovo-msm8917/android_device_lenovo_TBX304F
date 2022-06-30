@@ -17,7 +17,7 @@
 # inherit from common tb-common
 -include device/lenovo/tb-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/lenovo/TBX304
+DEVICE_PATH := device/lenovo/TBX304F
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := TB-X304X,TB-X304L,TB-X304F,TBX304,tb_x304x,tb_x304l,tb_x304f,tb_x304
@@ -47,4 +47,4 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/GT9110P/gt9110p/gesture"
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/lenovo/TBX304/BoardConfigVendor.mk
+include vendor/lenovo/TBX304F/BoardConfigVendor.mk

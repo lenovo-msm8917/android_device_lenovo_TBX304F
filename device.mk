@@ -23,7 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/lenovo/TBX304/TBX304-vendor.mk)
+$(call inherit-product, vendor/lenovo/TBX304F/TBX304F-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \

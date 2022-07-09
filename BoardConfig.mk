@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# inherit from common tb-common
--include device/lenovo/tb-common/BoardConfigCommon.mk
+# inherit from common msm8937-common
+include device/lenovo/msm8937-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/lenovo/TBX304F
 
